@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon Rubrics – HTML/CSS Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://github.githubassets.com/favicons/favicon.svg"
+    />
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="nav-brand">
+            <i class="fas fa-code"></i>
+            <span class="brand-text"> <strong>SMIT</strong> Batch 01 </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container content">
+      <article class="rubric-card">
+        <h2>Hackathon Preparation Guide</h2>
+        <p class="lead">
+          Build a stunning, responsive landing page using only HTML & CSS.
+          Follow these rules to score maximum marks!
+        </p>
+
+        <section>
+          <h2>1. Project Requirements</h2>
+          <ul>
+            <li>
+              Create a complete landing page (any theme: business, portfolio,
+              education, etc.)
+            </li>
+            <li>Use proper HTML5 semantic elements</li>
+            <li>All styling in <strong>external CSS only</strong></li>
+            <li>Fully responsive (mobile → desktop)</li>
+            <li>Must have: Navbar, Hero, Content Section, Footer</li>
+            <li>Use Google Fonts, Font Awesome, hover effects, transitions</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. What You Must Include</h2>
+          <ul class="checklist">
+            <li>
+              Semantic tags: <code>&lt;header&gt;</code>,
+              <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>,
+              <code>&lt;footer&gt;</code>
+            </li>
+            <li>Clean heading structure (H1 → H2 → H3)</li>
+            <li>CSS Variables, Flexbox/Grid</li>
+            <li>Media queries for responsiveness</li>
+            <li>Hover effects & transitions</li>
+            <li>Alt text on all images</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. Folder Structure (Must Follow)</h2>
+          <pre>
+            project-folder/
+            ├── index.html
+            ├── style.css
+            </pre
+          >
+        </section>
+
+        <section>
+          <h2>4. Evaluation Rubrics (100 Marks)</h2>
+          <div class="rubric-table-container">
+            <table class="rubric-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Criteria</th>
+                  <th>Description</th>
+                  <th>Marks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Semantic Structure</td>
+                  <td>
+                    Proper use of semantic tags (<code>&lt;header&gt;</code>,
+                    <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>,
+                    <code>&lt;article&gt;</code>, <code>&lt;footer&gt;</code>,
+                    etc.)
+                  </td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Correct HTML5 Syntax</td>
+                  <td>
+                    Clean nesting, indentation, valid tags, no broken structure
+                  </td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Accessibility Basics</td>
+                  <td>
+                    Alt text on all images, correct heading hierarchy
+                    (H1→H2→H3), readable content
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>External CSS Usage</td>
+                  <td>
+                    No inline styling, proper file linking & organization
+                    (css/style.css)
+                  </td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Use of Fonts & Icons</td>
+                  <td>
+                    Google Fonts + Font Awesome (or similar) used tastefully
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Use of CSS Variables</td>
+                  <td>
+                    Color palette / spacing variables used meaningfully in
+                    <code>:root</code>
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Consistent Styling</td>
+                  <td>
+                    Proper typography, spacing, color contrast throughout the
+                    page
+                  </td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Flexbox / Grid Usage</td>
+                  <td>
+                    Proper layout implementation using modern CSS (no floats or
+                    tables for layout)
+                  </td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Media Queries</td>
+                  <td>
+                    Fully responsive design for mobile, tablet, and desktop
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Visual Alignment</td>
+                  <td>
+                    Proper spacing, alignment & structured layout (no misaligned
+                    elements)
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>Visual Appeal</td>
+                  <td>Clean, modern, aesthetically pleasing design</td>
+                  <td class="marks">10</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>Working Navigation</td>
+                  <td>
+                    Internal links navigate correctly, active/hover states work
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Additional Interactivity</td>
+                  <td>
+                    CSS animations, hover states, transitions, smooth effects
+                  </td>
+                  <td class="marks">5</td>
+                </tr>
+                <tr class="bonus-row">
+                  <td>14</td>
+                  <td><strong>Extra Creativity</strong></td>
+                  <td>
+                    Unique animations, strong branding, custom illustrations,
+                    “wow” factor
+                  </td>
+                  <td class="marks"><strong>5</strong></td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="total-row">
+                  <td colspan="3"><strong>Total Score</strong></td>
+                  <td><strong>100 </strong></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </section>
+
+        <section>
+          <h2>5. Submission</h2>
+          <ul>
+            <li>
+              Keep push the code time to time only on your designated branch
+            </li>
+            <li>No late submission shall be accepted</li>
+            <li>All images must be inside the folder</li>
+            <li>No errors when opened</li>
+          </ul>
+        </section>
+
+        <div class="tip-box">
+          <h3>Pro Tips</h3>
+          <ul>
+            <li>Keep it clean, minimal, and modern</li>
+            <li>Use a consistent color palette</li>
+            <li>Test on your phone!</li>
+            <li>Comment your code</li>
+          </ul>
+        </div>
+      </article>
+    </main>
+    <script>
+      const navToggle = document.querySelector(".nav-toggle");
+      const navMenu = document.querySelector(".nav-menu");
+
+      navToggle.addEventListener("click", () => {
+        navToggle.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      const navLinks = document.querySelectorAll(".nav-link");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+        });
+      });
+
+      document.addEventListener("click", (e) => {
+        if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+          navToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>
